@@ -1,0 +1,737 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    /* background-color: khaki; */
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.logo > img {
+    width: 70px;
+    height: 70px;
+}
+.anchor > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.anchor {
+    display: flex;
+    gap: 2rem;
+}
+
+.anchor > .fa-solid {
+    color: black;
+}
+
+.first {
+    width: 100%;
+    height: 50%;
+    background-color: darkorchid;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.pic{
+    width: 75%;
+    height: 50vh;
+    background-image: url(./images/construction.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+}
+
+.pic > button {
+    width: 10rem;
+    padding: 15px;
+    border: 0;
+    border-radius: 25px;
+    background-color: darkorchid;
+
+}
+
+.pic button:hover {
+    background: black;
+    transition: 1s;
+}
+
+.pic button:hover a {
+    color: white;
+}
+
+.pic > button > a {
+    color: black;
+    text-decoration: none;
+}
+
+.pic > h1 {
+    color: darkorchid;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    text-shadow:2px -2px black 
+}
+
+.pic > p {
+    color: white;
+    font-size: 1.2rem;
+
+}
+.border-one {
+    width: 6px;
+    height: 3.5rem;
+    background-color: darkorchid;
+    position: absolute;
+}
+.first-half {
+    width: 25%;
+    height: 50vh;
+    background-color: rgba(243, 165, 243, 0.664);
+    padding: 1rem;
+
+}
+
+.first-half > p {
+    color: rgba(255, 255, 255, 0.863);
+    margin-top: 5px;
+}
+
+#web {
+    padding-left: 5rem;
+}
+.first-half > .fa-solid {
+    color: aliceblue;
+    position: absolute;
+    
+}
+.second {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.second > button {
+    border: 1px solid rgba(243, 165, 243, 0.664);;
+    width: 8rem;
+    padding: 11px;
+    background-color: white;
+}
+
+.second > button > a {
+    text-decoration: none;
+    color: rgba(146, 23, 146, 0.966);
+    font-weight: bolder;
+}
+
+.second button:hover {
+    background: black;
+    border: 0;
+
+}
+
+.second button:hover a {
+    color: white;
+}
+.third {
+    width: 100%;
+    height: 70vh;
+    background-color: gold;
+    display: flex;
+
+}
+
+.img {
+    width: 25%;
+    height: 100%;
+    background-image: url(./images/Large-construction-site-including-several-cranes-with-clear-sky-and-the-sun.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.large {
+    width: 75%;
+    height: 100%;
+    background-color: gainsboro;
+    
+}
+
+.left-right {
+    display: flex;
+    gap: 3rem;
+    height: 70%;
+    padding: 3rem;
+
+}
+
+.right {
+    width: 100%;
+    
+}
+
+.right > button {
+    width: 9rem;
+    padding: 9px;
+    border: 3px solid black;
+}
+
+.right > button > a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right button:hover {
+    background: black;
+}
+
+.right button:hover a{
+    color: white;
+}
+.left {
+    width: 100%;
+}
+
+
+.twelve-years {
+    display: flex;
+    height: 8.8vh;
+    /* margin-top: 4rem; */
+}
+.large .twelve {
+    width: 50%;
+    background-color: rgb(213, 146, 247);
+}
+
+.twelve > h1, h3 {
+    text-align: center;
+}
+
+.two-hundred > h1, h3 {
+    text-align: center;
+}
+
+.large .two-hundred {
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.border-two {
+    width: 3rem;
+    height: 4px;
+    background-color: darkorchid;
+}
+.fourth {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    padding: 2rem;
+}
+
+.fourth > h1 {
+    text-align: center;
+}
+.pic-one {
+    width: 20%;
+    height: 20vh;
+    background-image: url(./images/bigstock-Construction-Site-at-Dusk-or-16560581.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-two {
+    width: 20%;
+    height: 20vh;
+    background-image: url(./images/construction-site-jaroslaw-grudzinski.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-three {
+    width: 20%;
+    height: 20vh;
+    background-image: url(./images/constructions-site-945x767.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.picsss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.border-latest {
+    width: 3%;
+    height: 5px;
+    background-color: rgb(202, 115, 245);
+    margin-left: 40rem;
+    margin-top: 10px;
+}
+.box {
+    width: 20%;
+    height: 36vh;
+    border: 1px solid black; 
+    padding: 1rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.box > button {
+    width: 8rem;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.box > button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.fourth button:hover {
+    background: black;
+}
+
+.fourth button:hover a {
+    color: white;
+}
+.all-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view {
+    width: 9rem;
+    padding: 9px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.view > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.fifth {
+    width: 100%;
+    height: 65vh;
+    background-color: white; 
+}
+
+.half {
+    width: 30%;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 2rem;
+}
+
+.pic-half {
+    display: flex;
+}
+.vid {
+    width: 100%;
+    height: 55vh;
+    background-image: url(./images/Construction-Site-Security.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.half > h1 {
+    color: white;
+}
+
+.half > p {
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.half > button {
+    width: 9rem;
+    padding: 10px;
+    border: 3px solid rgba(243, 165, 243, 0.664);
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.half > button > a {
+    text-decoration: none;
+    color: rgba(243, 165, 243, 0.664);
+}
+
+.half button:hover {
+    background: white;
+    border: white;
+}
+
+.half button:hover a {
+    color: black;
+}
+.orange {
+    width: 2.5rem;
+    height: 4px;
+    background-color: orange;
+}
+
+.deeva {
+    width: 70%;
+}
+
+.quote-call {
+    display: flex;
+    height: 10vh;
+}
+.quote {
+    width: 50%;
+    background-color: rgb(214, 148, 247);
+   
+
+}
+
+.quote > h1 {
+    margin-top: 7px;
+}
+
+.quote > h3 {
+    margin-top: 5px;
+    font-weight: bolder;
+} 
+.online {
+    width: 50%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+
+}
+
+.online button {
+    border: 5px solid black;
+    width: 23rem;
+    height: 3rem;
+}
+.online button p {
+    text-align: center;
+    padding: 12px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.online button:hover {
+    background-color: black;
+}
+
+.online button:hover p {
+    color: white;
+}
+.sixth {
+    width: 100%;
+    height: 60vh;
+    background-color: gainsboro; 
+    padding: 3rem;
+}
+
+.Build {
+    width: 35%;
+}
+
+.Build > button {
+    width: 9rem;
+    padding: 7px;
+    border: 3px solid plum;
+}
+
+.Build > button > a {
+    text-decoration: none;
+    color: darkorchid;
+    font-weight: bolder;
+}
+
+.Build button:hover {
+    background-color: black;
+    border: 0;
+    height: 40px;
+}
+
+.Build button:hover a {
+    color: white;
+}
+.border-three {
+    width: 2.5rem;
+    height: 3px;
+    background-color: orange;
+}
+
+.white-box {
+    width: 45%;
+    height: 47vh;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.white-box > h4 {
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.donec {
+    padding-left: 10px;
+}
+
+.build-white {
+    display: flex;
+    justify-content: center;
+}
+
+.seventh {
+    width: 100%;
+    height: 55vh;
+    background-color: gainsboro; 
+    
+}
+
+.seventh > h1 {
+   font-weight: bolder;
+    font-size: 2.3rem; 
+    text-align: center;
+}
+
+.four-bord {
+    display: flex;
+    justify-content: center;
+}
+.border-four {
+    width: 2.5rem;
+    height: 3px;
+    background-color: plum;
+    margin-top: 1rem;
+
+}
+
+.client{
+    width: 20%;
+    height: 33vh;
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.client > p {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.client > h4 {
+    font-weight: bolder;
+}
+
+.client > img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1.5rem;
+    
+}
+.client-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.eighth {
+    width: 100%;
+    height: 30vh;
+    background-color: gainsboro;
+    display: grid;
+    /* grid-template-columns: 250px 250px 250px 250px ; */
+    /* gap: 2rem; */
+   
+}
+
+.eighth .sponsors {
+    width: 100%;
+    text-align: center;
+    /* margin: auto; */
+    /* background: var(--light); */
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  
+}
+
+.sponsors > .first-sponsors > .fa-brands {
+    color: lightslategray;
+    margin: 1rem 3rem 0 3rem;
+  }
+  
+  .sponsors > .second-sponsors > .fa-brands {
+    color: lightslategray;
+    margin: 0 3rem 0 3rem;
+    
+  }
+.ninth {
+    width: 100%;
+    height: 45vh;
+    background-color: darkseagreen; 
+    display: flex;
+}
+
+.rabi-purple {
+    width: 50%;
+    height: 45vh;
+    background-color: rgb(215, 144, 250); 
+    padding: 2rem;
+
+}
+
+.rabi-white {
+    width: 50%;
+    height: 45vh;
+    background-color: white; 
+}
+
+.border-five {
+    width: 2.5rem;
+    height: 4px;
+    background-color: black; 
+    margin-top: 10px;
+}
+
+input {
+    height: 5vh;
+    padding: 10px;
+    
+    
+}
+textarea {
+    /* width: 60%;
+    height: 15vh; */
+    background-color: white;
+    border: 0;
+    padding: 10px;
+}
+
+.rabi-purple .message button a {
+    color: white;
+    text-decoration: none;
+}
+
+.rabi-purple .message button{
+    width: 9rem;
+    height: 2rem;
+    background-color: rgb(215, 144, 250); 
+    border: 2px solid white;
+    margin-top: 8px;
+}
+
+.message button:hover {
+    background-color: black;
+    border: black;
+}
+.message {
+    display: flex;
+    justify-content:center;
+}
+
+.rabi-white > header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.fa-solid {
+    color: rgb(119, 118, 118);
+}
+
+.flex {
+    margin-left: 8rem;
+}
+
+.map {
+    display: flex; 
+    margin-top: 3rem;
+    gap: 1rem;
+
+}
+
+.map > p {
+    font-size: 1.1rem;
+    font-weight: bolder;
+
+}
+.phone {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+
+}
+
+.phone > p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+
+}
+.envelope{
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+
+
+}
+
+.envelope > p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+
+.copyright {
+    color: white;
+    background: black;
+    text-align: center;
+    padding: .3rem;
+  }

@@ -1,0 +1,256 @@
+@media screen and (max-width:710px) {
+
+    header{
+      
+    }
+
+    .logo h2 {
+        display: none;
+    }
+
+    .anchor {
+        display: none;
+    }
+
+    .first {
+        height: 100vh;
+    }
+    .container {
+        /* width: 100%; */
+        /* height: 100%; */
+        flex-direction: column-reverse;
+    }
+    .pic {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .pic h1 {
+        font-size: 2rem;
+    }
+     
+    .pic p {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .pic button {
+        background-color: darkorchid;
+    }
+
+    .first-half {
+        width: 100%;
+        height: 50vh;
+    
+    }
+
+    .first-half h1 {
+        font-size: 25px;
+    }
+
+    .first-half h2 {
+        font-size: 19px;
+    }
+
+    .first-half .fa-solid {
+        font-size: 50px;
+    }
+
+    .second {
+        overflow: hidden;
+    }
+    .second h1 {
+        font-size: 1.5rem;
+    }
+    .large {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .third {
+        width: 100%;
+        /* height: 70vh; */
+        overflow: hidden;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .large {
+        width: 100%;
+        height: 63.2vh;
+
+    }
+
+    .biggie {
+        padding: 1rem;
+       
+    }
+
+    .left-right {
+      padding-top: 4px;
+    }
+
+    .left p {
+        font-size: 13.5px;
+    }
+
+    .right {
+        font-size: 13.5px;
+      
+    }
+
+
+    .fourth {
+        overflow: hidden;
+        height: 980px;
+    }
+
+    .fourth .picsss {
+        display: none;
+    }
+
+    .fourth .boxes {
+        display: block;
+        gap: 7rem;
+    }
+    .fourth .box {
+        width: 100%;
+        height: 250px;
+        margin-top: 1rem
+    }
+
+    .fourth .box button {
+      
+    }
+    .fifth {
+        /* overflow: hidden; */
+        height: 100%;
+        width: 100%;
+      
+    }
+
+    .pic-half {
+        flex-direction: column;
+    }
+
+    .vid {
+        height: 50%;
+        width: 100%;
+
+    }
+    .half {
+       height: 50%;
+       width: 100%;
+    }
+ 
+    .half h1 {
+       
+    }
+    .quote-call {
+        height: 10%;
+        display: none;
+        height: 10vh;
+        width: 100%;
+    }
+    .sixth {
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+
+    }
+
+    .build-white {
+        flex-direction: column;
+      
+    }
+
+    .Build {
+        height: 50%;
+        width: 100%;
+        padding: 5px;
+     
+    }
+
+    .Build h1 {
+   
+    }
+
+
+    .white-box {
+        width: 100%;
+        height: 50%;
+     
+    }
+
+    .seventh {
+        overflow: hidden;
+        height: 820px;
+    }
+
+    .client-box {
+        display: block;
+        
+    }
+
+    .client {
+        width: 80%;
+        height: 220px;
+        padding: 1rem;
+        /* margin-top: 1rem; */
+        margin: 1rem auto;
+    }
+
+    .client img {
+       width: 20px;
+       height: 15px;
+    }
+
+    .client p {
+        font-size: 20px;
+    }
+    .eighth {
+        overflow: hidden;
+        /* display: none; */
+    }
+
+
+
+    .ninth {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .rabi-white {
+        width: 100%;
+        height: 50%;
+       
+    }
+
+    .rabi-purple {
+        width: 100%;
+        height: 50%;
+        padding: 5px;
+    }
+
+    .rabi-purple input{
+        display: block;
+        margin-top: 10px;
+        width: 90%;
+        border-radius: 5px;
+        border: 0;
+        
+    }
+
+    .rabi-purple textarea {
+        width: 90%;
+        border-radius: 5px;
+       
+    }
+
+
+    
+}
